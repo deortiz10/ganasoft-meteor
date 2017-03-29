@@ -49,7 +49,7 @@ class ListaFincas extends Component {
                         {this.props.fincas.map((finca, index) =>
                             <Finca key={index} finca={finca}/>
                         )}
-
+                        
                     </div>
 
                 </div>

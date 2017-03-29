@@ -35,7 +35,9 @@ Meteor.methods({
         check(sexo, String);
         check(descripcion, String);
 
-
+         // Borren referencias al ttorial de meteor, es decir los comentarios que este da al igual que usena variables propias para 
+        //evitar confuciones
+        //bien la organizacion
 
         // Make sure the user is logged in before inserting a task
         if (!this.userId) {

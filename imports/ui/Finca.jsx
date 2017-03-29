@@ -75,7 +75,7 @@ class Finca extends Component {
         console.log("im finca");
         // this.getAnimales();
     }
-
+// eliminar codigo que no este utilizado
     render() {
         return (
             <div className="col-md-4 circle">

@@ -19,4 +19,5 @@ describe('App Component', function () {
     expect(wrapper).to.exist;
   });
 
+  
 });
